@@ -1,0 +1,135 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form>
+		<h3>Customer Name:<input type=""></h3>
+		<h3>Street Address:<input type=""></h3>
+		<h3>City:<input type=""></h3>
+		<h3>Area Code:<input type=""></h3>
+		<h3>Telephone:<input type=""></h3>
+	</form>
+
+	<br>
+	<form action="/action_page.php">
+		<fieldset>
+			<legend>Customer Information</legend>
+				<h4>Customer name:
+					<input type="">
+				</h4>
+				<h4>Telephone:
+					<input type="">
+				</h4>
+				<h4>E-mail address:
+					<input type="">
+				</h4>
+		</fieldset>
+	</form>
+
+	<br><br>
+	<form action="/action_page.php">
+		<fieldset>
+			<legend>Biggest Burritos in the World!</legend>
+				<h4><input type="radio">Humongous</h4>
+				<h4><input type="radio">Double-Humongous</h4>
+				<h4><input type="radio">Triple-Humongous</h4>
+		</fieldset>
+
+		<fieldset>
+			<legend>Fixins</legend>
+				<h4>Humongous
+					<input type="radio">
+				</h4>
+				<h4>Double-Humongous
+					<input type="radio">
+				</h4>
+				<h4>Triple-Humongous
+					<input type="radio">
+				</h4>
+			<input type="submit" value="Submit">
+		</fieldset>
+	</form>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+
+<h1>Forms</h1>
+
+<h2>Basic Form with input field</h2>
+
+
+<!--2-->
+<h1>Bronze</h1>
+<p>Make a simple form.</p>
+<div class="form-one">
+	<form>
+		<p><label>Customer Name: <input></label></p>
+		<p><label>Street Address: <input></label></p>
+		<p><label>City: <input></label></p>
+		<p><label>Area Code: <input></label></p>
+		<p><label>Telephone: <input></label></p>
+	</form>	
+</div> 
+
+<br />
+
+<h1>Silver</h1>
+<p>Create a nicer form.</p>
+	
+	<form>
+		<fieldset>
+			<legend> Customer Information </legend>
+			<p><label>Customer name: <input></label></p>
+		 	<p><label>Telephone: <input type=tel></label></p>
+		 	<p><label>E-mail address: <input type=email></label></p>
+		</fieldset>
+	</form>
+<br />
+
+
+<h1>Gold</h1>
+<p>Create an even nicer form.</p>
+	<form>
+		<fieldset>
+	  		<legend>Biggest Burritos in the World!</legend>
+			<!-- correct to look like this instead plz -->
+			<p><input type="radio" name="size" id="size1" /><label for="size1"> Humongous </label></p>
+			<p><label> <input type="radio" name=size> Double-Humongous </label></p>
+			<p><label> <input type="radio" name=size> Triple-Humongous </label></p>
+		</fieldset>
+	</form>
+<br/>
+
+<!--5-->
+	<form>
+		<fieldset>
+			<legend>Fixins</legend>
+			<p><label> <input type=checkbox> Sauteed Onions </label></p>
+			<p><label> <input type=checkbox> Guacamole</label></p>
+			<p><label> <input type=checkbox> Queso </label></p>
+			<p><label> <input type=checkbox> Lettuce </label></p>
+			<p><label> <input type=checkbox> Refried Beans </label></p>
+			<p><label> <input type=checkbox> Rice </label></p>
+		</fieldset>
+	</form>
+<br>
+
+<!--6-->
+	<form>
+		<fieldset>
+			<p><label>Preferred delivery time: <input type=time min="11:00" max="21:00" step="900"></label></p>
+			<p><label>Delivery instructions: <textarea></textarea></label></p>
+			<p><button>Submit order</button></p>
+		</fieldset>
+	</form>	
+</body>
+</html>
